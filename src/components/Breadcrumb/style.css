@@ -1,0 +1,38 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  height: 37px;
+  padding: 10px;
+}
+
+.breadcrumbItem {
+  display: flex;
+}
+
+.breadcrumbLabel {
+  font-weight: 600;
+  font-size: 14px;
+  color: #7b798f;
+  cursor: pointer;
+  max-width: 216px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.breadcrumbLabel:hover {
+  color: #ffffff;
+}
+
+.breadcrumbLabelActive {
+  color: #ffffff;
+}
+
+.breadcrumbSplit {
+  font-weight: 600;
+  font-size: 14px;
+  color: #7b798f;
+  margin: 0px 15px;
+  cursor: default;
+  user-select: none;
+}

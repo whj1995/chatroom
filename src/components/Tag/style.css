@@ -1,0 +1,15 @@
+.tag {
+  display: inline-block;
+  background: rgba(4, 177, 125, 0.1);
+  font-weight: 700;
+  font-size: 12px;
+  color: #04b17d;
+  padding: 5px 15px;
+  border-radius: 9px;
+}
+
+.tagSmall {
+  font-size: 9px;
+  padding: 4px 6px;
+  border-radius: 6px;
+}

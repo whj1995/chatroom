@@ -1,0 +1,49 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 55px;
+  background: #1d1c21;
+  border: 1px solid #26252d;
+  border-radius: 10px;
+  padding: 31px 12px;
+}
+
+.menuItem {
+  text-align: center;
+}
+
+.menuLabel {
+  font-weight: 600;
+  font-size: 14px;
+  color: #7b798f;
+  cursor: pointer;
+  max-width: 100px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.menuLabelActive {
+  color: #04b17d;
+}
+
+.menuSplit {
+  font-weight: 600;
+  font-size: 14px;
+  color: #7b798f;
+  margin: 0px 15px;
+  cursor: default;
+  user-select: none;
+}
+
+.menuLabelHighLight {
+  background: linear-gradient(95.44deg, #f3a32b 3.36%, #f35b2b 97.98%);
+  border-radius: 8px;
+  padding: 4px 2px;
+}
+
+.menuLabelHighLight .menuLabel {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 9px;
+}

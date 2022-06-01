@@ -1,0 +1,89 @@
+.hub {
+  background: #0c0e13;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  padding: 0 23px 0 25px;
+}
+
+.headerLeft {
+  display: flex;
+}
+
+.logo {
+  margin-right: 15px;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.tool {
+  cursor: pointer;
+}
+
+.zoneSelect {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  white-space: nowrap;
+}
+
+.content {
+  display: flex;
+  height: calc(100% - 69px - 21px);
+}
+
+.left {
+  margin-right: 20px;
+  width: 98px;
+  height: 100%;
+}
+
+.right {
+  display: flex;
+  flex: 1;
+}
+
+.live {
+  flex: 1;
+  margin-right: 20px;
+  background: #1d1c21;
+  border-radius: 20px;
+}
+
+.liveTitle {
+  display: flex;
+  height: 58px;
+  align-items: center;
+  column-gap: 15px;
+  padding: 0px 20px;
+  border-bottom: 1px solid #0c0e13;
+}
+
+.liveTitleText {
+  font-weight: 700;
+  font-size: 18px;
+  color: #c9c7d0;
+}
+
+.liveContent {
+  padding: 20px;
+  height: calc(100% - 58px);
+}
+
+.chat {
+  width: 572px;
+}
+
+.chatInner {
+  height: 100%;
+  overflow: hidden;
+}
